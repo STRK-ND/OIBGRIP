@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="#" class="link">Rk.</a>
+      </h3>
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+        <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Rajat Kashyap.</span>
+        </h1>
+        <h2 class="about__role">A Front end & Android Os Developer.</h2>
+        <p class="about__desc"> I’m pursuing a Bachelor of Computer application from Indira Gandhi National Tribal University, Amarkantak (MP). Self-trained Engineer with an interest in Mobile Application Development, Web Development & Designing, Custom Rom Linux kernel development, and graphic design. Android Nerd Since Eight Norm. Contributed to Different Assignments in Rom Advancement. Acquainted with GitHub/Git-Lab, AWS, GCC, Azure, CI, and Docker </p>
+        <div class="about__contact center">
+          <a href="./rajat-Kashyap-cv (4).pdf">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+          <a href="https://github.com/STRK-ND" aria-label="github" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/rajat-kashyap/" aria-label="linkedin" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Android Custom Rom</h3>
+            <p class="project__description"> A custom ROM is essentially a firmware based on the Android source code provided by Google. A lot of people prefer custom ROMs because of the functionality they offer, and the ability to customize many things on the phone. </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">C/C++</li>
+              <li class="project__stack-item">Bash</li>
+              <li class="project__stack-item">XML</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">HTML, CSS, JavaScript</li>
+              <li class="project__stack-item">SQL</li>
+              <li class="project__stack-item">Makefile</li>
+            </ul>
+            <a href="https://rajat-k-project.web.app/" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Kryptonite Kernel</h3>
+            <p class="project__description"> It's An Android Kernel For Asus Zenphone Max pro m1 (X00t/X00TD) Stable, Smooth, Fast and Efficient.Based on CAF source with 4.4.y linux upstream changes merged in except CAF variants which get updated directly from CodeAurora. </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C</li>
+              <li class="project__stack-item">Shell Scripting</li>
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Perl</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Assembly</li>
+            </ul>
+            <a href="https://rajat-k-project.web.app/" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Gamer'S Edition</h3>
+            <p class="project__description"> It Is a Magisk Module-: Which is meant for gamers ,To enhence gaming experience on there device ,This Module Consists Of tweeks, modified thermal & Some other Stuffs =To Provide you lag free gaming experience. </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">C/C++</li>
+              <li class="project__stack-item">XML</li>
+              <li class="project__stack-item">Bash</li>
+              <li class="project__stack-item">Makefile</li>
+              <li class="project__stack-item">Python</li>
+            </ul>
+            <a href="https://rajat-k-project.web.app/" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">C/C++</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain"> Material UI, Bootstrap, Tailwind CSS </li>
+          <li class="skills__list-item btn btn--plain">Bash</li>
+          <li class="skills__list-item btn btn--plain">Makefile</li>
+          <li class="skills__list-item btn btn--plain">CI/CD</li>
+          <li class="skills__list-item btn btn--plain">Cloud Servers</li>
+          <li class="skills__list-item btn btn--plain">Linux</li>
+        </ul>
+      </section>
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <div class="container">
+          <form id="contact" action="" method="post">
+            <h3>Contact Form</h3>
+            <h4>Contact us</h4>
+            <fieldset>
+              <input placeholder="Your name" type="text" tabindex="1" required autofocus />
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Email Address" type="email" tabindex="2" required />
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required />
+            </fieldset>
+            <fieldset>
+              <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending"> Submit </button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="#top" class="link footer__link"> Created By Rajat Kashyap </a>
+    </footer>
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
